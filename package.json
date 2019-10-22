@@ -1,0 +1,16 @@
+{
+  "name": "simplekvdb",
+  "version": "0.0.1",
+  "description": "simple key value database",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "tsc && node dist/test.js",
+    "build": "tsc"
+  },
+  "author": "ian gong",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.11.2"
+  }
+}
